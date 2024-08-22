@@ -1,4 +1,12 @@
 /* shared style */
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .section-title{
     font-weight:800;
     font-size: 32px;
@@ -14,15 +22,69 @@
 .btn-download{
     padding: 17px 24px;
     border-radius: 8px;
+    border: 1px solid rgb(13, 19, 33);
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+    opacity: 0.8;
+
 }
 .btn-contact{
     padding: 21px 24px;
     border-radius: 8px;
+    background-color: #0D1321;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 .btn-learn{
     padding: 12px 20px;
 }
 /* header style */
+nav{
+    max-width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 28px;
+    color: #0D1321;
+}
+.banner{
+    background-image: url('../assets/Hero-bg.png');
+    height: 650px;
+    padding-top: 25px;
+}
+.banner .banner-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner img{
+    margin-bottom: 32px;
+}
+.banner .banner-title{
+    font-weight: 800;
+    font-size: 48px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner .banner-desc{
+    max-width: 750px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 /* web development style */
 /* inspiration style */
 /* current target style */
