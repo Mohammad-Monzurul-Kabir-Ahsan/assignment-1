@@ -135,6 +135,21 @@ nav{
     margin-bottom: 32px;
 }
 /* inspiration style */
+.inspiration{
+    margin-bottom: 150px;
+}
+.inspiration .section-title{
+    margin-bottom: 24px;
+}
+.inspiration .section-desc{
+    margin-bottom: 48px;
+}
+.inspiration .section-content {
+    padding: 32px;
+}
+.inspiration .section-content iframe {
+    border-radius: 16px;
+}
 /* current target style */
 /* next target style */
 /* support style */
