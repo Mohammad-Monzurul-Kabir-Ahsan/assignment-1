@@ -1,0 +1,31 @@
+/* shared style */
+.section-title{
+    font-weight:800;
+    font-size: 32px;
+    color: #0D1321;
+    text-align: center;
+}
+.section-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+}
+.btn-download{
+    padding: 17px 24px;
+    border-radius: 8px;
+}
+.btn-contact{
+    padding: 21px 24px;
+    border-radius: 8px;
+}
+.btn-learn{
+    padding: 12px 20px;
+}
+/* header style */
+/* web development style */
+/* inspiration style */
+/* current target style */
+/* next target style */
+/* support style */
+/* footer style */
